@@ -1,0 +1,62 @@
+body {
+    background-color: #0B0B10;
+    margin: 0;
+    padding: 0; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #211238;
+    height: 70px;
+}
+header li{
+    color: white;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;  
+    font-size: 20px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 70px;
+}   
+img {
+    width: 500px;
+    height: auto;
+}
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+p {
+    color: #F5F3FF;
+    font-family: 'Space Grotesk', sans-serif;   
+}
+.animacao {
+    animation: aparecer 2s ease;
+}
+@keyframes aparecer {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.game-explorer p{
+    font-size: 35px;
+}
+.game-explorer input{
+    background-color: #292333;
+    height: 70px;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    width: 900px;
+    color: white;
+}
+.game-explorer{
+    background-color: #191520;
+}
